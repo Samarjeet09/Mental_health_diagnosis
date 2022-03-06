@@ -3,7 +3,7 @@
 using namespace std;
 
 int decider = 1;
-int rating(int, int);
+int rating(int, int);//a functon which takes input in form od sum of all the answers and gives back a response 
 void drugsf();
 void alcoholf();
 void dementiaf();
@@ -11,7 +11,7 @@ void delirium();
 void acute_psychotic_disorderf();
 void chronic_psychotic_disorderf();
 void Adjusment_disorderf();
-void end_karwado();
+void end_karwado();//a function which gives user a option to exit anytime
 void phobic_disorder();
 void panic_disorder();
 void Generalized_anxiety();
@@ -24,7 +24,7 @@ void eating_disorder();
 void Neurastheniaf();
 void Hyperkineticf();
 void Conduct_disorder();
-int kessler_pysco_test();
+int kessler_pysco_test();//function to measure psychotic distress of  person
 
 int main()
 {
